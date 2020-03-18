@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-16T05:23:21.473Z",
+        "line": 10,
+        "name": "Login to Ing application",
+        "description": "",
+        "id": "multiple-test-data;login-to-ing-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the Browser",
+            "match": {
+              "location": "StepDefinition.MultipleTestData.launch_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the \"admin\" and \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 11
+                },
+                {
+                  "val": "test123",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.MultipleTestData.enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate login page",
+            "match": {
+              "location": "StepDefinition.MultipleTestData.validate_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-16T05:23:21.525Z",
+        "line": 11,
+        "name": "Login to Ing application",
+        "description": "",
+        "id": "multiple-test-data;login-to-ing-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the Browser",
+            "match": {
+              "location": "StepDefinition.MultipleTestData.launch_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the \"bharath\" and \"test13654\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bharath",
+                  "offset": 11
+                },
+                {
+                  "val": "test13654",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.MultipleTestData.enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate login page",
+            "match": {
+              "location": "StepDefinition.MultipleTestData.validate_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multiple Test Data",
+    "description": "",
+    "id": "multiple-test-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/MultipleTestdata.feature",
+    "tags": []
+  }
+]

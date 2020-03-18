@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.268">
+<testcase classname="Multiple Test Data" name="Login to Ing application" time="0.046">
+<system-out><![CDATA[Given Launch the Browser....................................................passed
+When Enter the "admin" and "test123"........................................passed
+Then Validate login page....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Multiple Test Data" name="Login to Ing application 2" time="0.001">
+<system-out><![CDATA[Given Launch the Browser....................................................passed
+When Enter the "bharath" and "test13654"....................................passed
+Then Validate login page....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
